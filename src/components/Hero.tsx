@@ -31,11 +31,11 @@ export default function Hero() {
           </a>
         </div>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 max-md:mx-4">
         <img
           src={imageHero.src}
           alt="Hero image"
-          className="max-w-full w-full rounded-[20px] max-md:h-[280px] max-md:object-cover max-md:px-5 max-md:rounded-[20px]"
+          className="w-full object-cover object-center max-md:h-[280px] max-md:rounded-3xl"
         />
       </div>
     </section>
