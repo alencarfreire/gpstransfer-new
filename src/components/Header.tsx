@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <header className="max-w-screen-lg mt-10 mx-auto flex justify-between items-center bg-gradient-to-r from-black via-[#424242] to-black text-[#FAFAFA] py-5 px-10 rounded-[60px] max-md:mx-5">
+    <header className="mt-10 mx-auto flex justify-between items-center bg-gradient-to-r from-black via-[#424242] to-black text-[#FAFAFA] py-5 px-10 rounded-[60px] max-md:mx-5">
       <nav className="max-md:hidden">
         <ul className="flex gap-8">
           <li>
