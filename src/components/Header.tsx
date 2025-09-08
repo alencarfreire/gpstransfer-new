@@ -16,7 +16,7 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-      <div className="flex items-center justify-center font-extrabold text-xl">
+      <div className="flex items-center justify-center font-extrabold text-xl transform translate-x-1.5">
         <span>GPS Transfer</span>
       </div>
       <nav>
