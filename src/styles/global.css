@@ -2,5 +2,33 @@
 
 * {
   font-family: "Manrope", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
 
+.web-title-1 {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 110%;
+}
+
+@theme {
+  --color-black: #161616;
+  --color-gray-dark: #454444;
+  --text-title-1: 72px;
+  --text-title-2: 48px;
+  --text-title-3: 40px;
+  --text-subtitle-1: 24px;
+  --text-subtitle-2: 20px;
+  --text-button-1: 18px;
+  --text-text-1: 16px;
+  --text-text-2: 14px;
+  --text-caption: 12px;
+  --text-mobile-title-1: 32px;
+  --text-mobile-title-2: 26px;
+  --text-mobile-subtitle-1: 18px;
+  --text-mobile-subtitle-2: 16px;
+  --text-mobile-button-1: 16px;
+  --text-mobile-text-1: 14px;
 }
