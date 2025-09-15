@@ -3,20 +3,17 @@ import imageHero from '../assets/image-hero.png';
 
 export default function Hero() {
   return (
-    <section className="mt-20 max-sm:mt-4">
-      <div className="flex justify-between items-center max-md:flex-col">
+    <section className="mt-20 mb-10 max-sm:mt-4">
+      <div className="flex justify-between gap-10 items-start max-md:flex-col">
         <h1 className="text-7xl leading-20 font-bold text-balance max-md:text-mobile-title-1 max-md:leading-9 max-md:text-center">
           Seu transfer exclusivo no aeroporto de Porto Seguro
         </h1>
-        <div className="mt-5 flex flex-col items-start gap-10 max-md:items-center">
-          <p
-            className="text-2xl max-md:text-mobile-subtitle-1 max-md:text-center text-gray-dark
-          "
-          >
+        <div className="mt-5 flex flex-col items-start gap-6 max-md:items-center">
+          <p className="text-2xl max-md:text-mobile-subtitle-1 max-md:text-center text-gray-dark">
             Evite surpresas, faça sua reserva e o seu transfer privativo estará
             pronto no desembarque.
           </p>
-          <a className="bg-[#161616] text-white px-[18px] py-[14px] rounded-full font-semibold text-button-1 flex items-center gap-4 cursor-pointer group">
+          <a className="bg-green-600 hover:bg-green-800 transition-colors text-white px-[18px] py-[14px] rounded-full font-semibold text-button-1 flex items-center gap-4 cursor-pointer group border-4 border-green-900">
             Reservar Agora
             <svg
               width="24"
@@ -34,7 +31,7 @@ export default function Hero() {
           </a>
         </div>
       </div>
-      <div className="mt-10 max-md:mx-4 mb-50">
+      <div className="mt-10 max-md:mx-4">
         <img
           src={imageHero.src}
           alt="Hero image"

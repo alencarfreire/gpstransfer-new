@@ -30,7 +30,7 @@ export default function Header() {
           <li>
             <a
               href="/"
-              className="bg-[#4CF419]/50 px-[14px] py-2 rounded-full hover:bg-[#4CF419]/40 transition-colors border-2 border-[#FAFAFA]"
+              className="bg-green-600 px-[14px] py-2 rounded-full hover:bg-green-700 transition-colors border-2 border-white text-white font-bold"
             >
               Reservar
             </a>
