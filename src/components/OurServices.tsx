@@ -3,7 +3,7 @@ import OurServicesImage from '../assets/ourservices.jpg';
 
 export default function OurServices() {
   return (
-    <section className="flex justify-between items-center gap-20 py-30">
+    <section className="flex justify-between items-center gap-20 py-30 max-md:flex-wrap">
       <div className="flex flex-col gap-6">
         <h2 className="text-title-2 leading-[120%] font-bold">
           Nossos serviços
