@@ -3,8 +3,8 @@ import imageHero from '../assets/image-hero.png';
 
 export default function Hero() {
   return (
-    <section className="mt-20 mb-10 max-sm:mt-4">
-      <div className="flex justify-between gap-10 items-start max-md:flex-col">
+    <section className="mt-20 mb-10 max-sm:mt-8">
+      <div className="flex justify-between gap-10 max-md:gap-2 items-start max-md:flex-col">
         <h1 className="text-7xl leading-20 font-bold text-balance max-md:text-mobile-title-1 max-md:leading-9 max-md:text-center">
           Seu transfer exclusivo no aeroporto de Porto Seguro
         </h1>
