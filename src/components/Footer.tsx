@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-black via-[#424242] to-black text-[#FAFAFA] mb-10 py-14 px-10 flex flex-col gap-10 rounded-[40px]">
+    <footer className="bg-gradient-to-r from-black via-[#424242] to-black text-[#FAFAFA] mb-10 py-14 px-10 flex flex-col gap-10 rounded-[40px] mt-20">
       <div className="flex justify-between max-md:flex-col max-md:gap-10">
         <div>
           <h4 className="text-subtitle-1 mb-3">GPS Transfer</h4>
