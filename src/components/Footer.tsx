@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer className="bg-gradient-to-r from-black via-[#424242] to-black text-[#FAFAFA] mb-10 py-14 px-10 flex flex-col gap-10 rounded-[40px]">
-      <div className="flex justify-between">
+      <div className="flex justify-between max-md:flex-col max-md:gap-10">
         <div>
           <h4 className="text-subtitle-1 mb-3">GPS Transfer</h4>
           <p className="text-text-1">Porto Seguro, Bahia, Brasil</p>
@@ -38,9 +38,15 @@ export default function Footer() {
           </p>
         </div>
       </div>
-      <div className="border-t-[1px] border-[#FAFAFA]">
+      <div className="border-t-[1px] border-[#FAFAFA] flex justify-between flex-wrap">
         <p className="text-text-2 mt-9">
-          {new Date().getFullYear()} GPS Transfer. All rights reserved.
+          {new Date().getFullYear()} GPS Transfer. Todos os direitos reservados.
+        </p>
+        <p className="text-text-2 mt-9 ">
+          Desenvolvido por{" "}
+          <a href="" className="text-blue-500 font-semibold">
+            Vínicius Freire.
+          </a>
         </p>
       </div>
     </footer>
