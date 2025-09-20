@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonCTA from "./ui/ButtonCTA";
 
 export default function Footer() {
   return (
@@ -36,6 +37,9 @@ export default function Footer() {
             Estamos disponíveis o tempo todo. Entre em contato conosco hoje
             mesmo!
           </p>
+          <div className="mt-5">
+            <ButtonCTA text="Orçamento" href="/" />
+          </div>
         </div>
       </div>
       <div className="border-t-[1px] border-[#FAFAFA] flex justify-between flex-wrap">

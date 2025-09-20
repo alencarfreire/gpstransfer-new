@@ -13,6 +13,19 @@
   line-height: 110%;
 }
 
+@keyframes pulseColors {
+  0%, 100% {
+    background-color: #16a34a;
+  }
+  50% {
+    background-color: #166534;
+  }
+}
+
+.animate-pulse-colors {
+  animation: pulseColors 3s infinite ease-in-out;
+}
+
 @theme {
   --color-black: #161616;
   --color-gray-dark: #454444;
