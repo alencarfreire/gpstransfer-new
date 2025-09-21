@@ -4,7 +4,6 @@ import MenuMobile from "./ui/MenuMobile";
 export default function Header() {
   const [menuHamburger, setMenuHamburger] = React.useState(false);
 
-  // Impedir o scroll quando o menu estiver aberto
   useEffect(() => {
     if (menuHamburger) {
       document.body.style.overflow = "hidden";
@@ -31,7 +30,7 @@ export default function Header() {
         />
 
         <header className="mt-10 max-md:mt-5 mx-auto flex justify-between items-center bg-gradient-to-r from-black via-[#424242] to-black text-[#FAFAFA] py-5 px-10 rounded-[60px]">
-          <nav className="max-md:hidden">
+          <nav className="max-lg:hidden">
             <ul className="flex gap-8">
               <li>
                 <a href="/">Home</a>
