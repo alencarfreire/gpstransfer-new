@@ -14,7 +14,7 @@ interface Review {
 }
 
 export default function Reviews() {
-  const clientsReviews = [
+  const clientsReviews: Review[] = [
     {
       name: "Maisa Brandão",
       location: "Bauru, SP",
@@ -51,7 +51,9 @@ export default function Reviews() {
 
   const handlePrevious = () => {
     setDirection("left");
-    setStartIndex((prev) => (prev - 1 + clientsReviews.length) % clientsReviews.length);
+    setStartIndex(
+      (prev) => (prev - 1 + clientsReviews.length) % clientsReviews.length
+    );
   };
 
   const handleNext = () => {
@@ -83,11 +85,25 @@ export default function Reviews() {
             tornar sua viagem perfeita e inesquecívei
           </p>
           <div className="flex gap-3 mt-[50px] max-md:justify-center">
-            <button onClick={handlePrevious} className="transition-transform hover:scale-110 focus:outline-none">
-              <img src={ArrowLeft.src} alt="Anterior" className="w-[40px] h-[40px]" />
+            <button
+              onClick={handlePrevious}
+              className="transition-transform hover:scale-110 focus:outline-none"
+            >
+              <img
+                src={ArrowLeft.src}
+                alt="Anterior"
+                className="w-[40px] h-[40px]"
+              />
             </button>
-            <button onClick={handleNext} className="transition-transform hover:scale-110 focus:outline-none">
-              <img src={ArrowRight.src} alt="Próximo" className="w-[40px] h-[40px]" />
+            <button
+              onClick={handleNext}
+              className="transition-transform hover:scale-110 focus:outline-none"
+            >
+              <img
+                src={ArrowRight.src}
+                alt="Próximo"
+                className="w-[40px] h-[40px]"
+              />
             </button>
           </div>
         </div>
@@ -104,10 +120,16 @@ export default function Reviews() {
                   <p className="text-balance mt-4">{review.review}</p>
                 </div>
                 <div className="flex gap-3 items-center mt-4">
-                  <img src={review.image.src} alt="" className="w-[40px] h-[40px] rounded-full" />
+                  <img
+                    src={review.image.src}
+                    alt=""
+                    className="w-[40px] h-[40px] rounded-full"
+                  />
                   <div>
                     <p className="text-text-1">{review.name}</p>
-                    <p className="text-text-2 text-[#454444]">{review.location}</p>
+                    <p className="text-text-2 text-[#454444]">
+                      {review.location}
+                    </p>
                   </div>
                 </div>
               </div>

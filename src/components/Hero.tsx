@@ -7,7 +7,7 @@ export default function Hero() {
     <div className="mx-auto max-w-[1440px] px-[100px] max-md:px-[20px]">
       <section className="mt-20 mb-10 max-sm:mt-8">
         <div className="flex justify-between gap-10 max-md:gap-2 items-start max-md:flex-col">
-          <h1 className="text-7xl leading-20 font-bold text-balance max-md:text-mobile-title-1 max-md:leading-9 max-md:text-center">
+          <h1 className="text-7xl leading-20 font-bold text-balance max-lg:text-5xl max-lg:leading-12 max-lg:font-black max-lg:text-center">
             Seu transfer exclusivo no aeroporto de Porto Seguro
           </h1>
           <div className="mt-5 flex flex-col items-start gap-6 max-md:items-center">
