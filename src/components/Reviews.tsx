@@ -84,6 +84,15 @@ export default function Reviews() {
             Oferecemos uma gama completa de soluções de transfer projetadas para
             tornar sua viagem perfeita e inesquecívei
           </p>
+          <p className="text-[10px]">
+            Avaliações extraídas do
+            <a
+              href="https://www.tripadvisor.com.br/Attraction_Review-g616327-d25427668-Reviews-GPS_Transfer-Arraial_d_Ajuda_Porto_Seguro_State_of_Bahia.html"
+              className="text-green-600 font-bold"
+            >
+              TripAdvisor
+            </a>
+          </p>
           <div className="flex gap-3 mt-[50px] max-md:justify-center">
             <button
               onClick={handlePrevious}
