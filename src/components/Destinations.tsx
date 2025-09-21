@@ -68,20 +68,22 @@ export default function Destinations() {
     },
   ];
   return (
-    <section className="flex flex-wrap gap-6 justify-between">
-      {locals.map((local) => (
-        <div key={local.name} className="max-w-[600px] max-xl:w-full">
-          <img
-            src={local.imagem.src}
-            alt={local.name}
-            className="max-h-[400px] w-full object-cover rounded-2xl mb-5 mt-5 max-md:h-[300px]"
-          />
-          <h4 className="text-title-3 font-semibold max-md:text-mobile-title-1">
-            {local.name}
-          </h4>
-          <p className="text-text-1 text-balance mb-5">{local.description}</p>
-        </div>
-      ))}
-    </section>
+    <div className="mx-auto max-w-[1440px] px-[100px] max-md:px-[20px]">
+      <section className="flex flex-wrap gap-6 justify-between">
+        {locals.map((local) => (
+          <div key={local.name} className="max-w-[600px] max-xl:w-full">
+            <img
+              src={local.imagem.src}
+              alt={local.name}
+              className="max-h-[400px] w-full object-cover rounded-2xl mb-5 mt-5 max-md:h-[300px]"
+            />
+            <h4 className="text-title-3 font-semibold max-md:text-mobile-title-1">
+              {local.name}
+            </h4>
+            <p className="text-text-1 text-balance mb-5">{local.description}</p>
+          </div>
+        ))}
+      </section>
+    </div>
   );
 }
