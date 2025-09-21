@@ -2,22 +2,31 @@ import React from "react";
 import ArrowLeft from "../assets/arrow-left.svg";
 import ArrowRight from "../assets/arrow-right.svg";
 import Quote from "../assets/quote.svg";
+import BrunaAvatar from "../assets/bruna-avatar.svg";
+import PauloAvatar from "../assets/paulo-avatar.svg";
+
+interface Review {
+  name: string;
+  location: string;
+  review: string;
+  image: { src: string };
+}
 
 export default function Reviews() {
   const clientsReviews = [
     {
-      name: "Cliente 1",
+      name: "Maisa Brandão",
       location: "Bauru, SP",
       review:
-        "Oferecemos uma gama completa de soluções de transfer projetadas para tornar sua viagem perfeita e inesquecívei",
-      image: "https://randomuser.me/api/portraits/men/1.jpg",
+        "Super recomendo a GPS Transfer! O condutor Uiris foi pontual, extremamente simpático, educado e dirigiu com muita segurança durante todo o trajeto de Outeiro das Brisas até o aeroporto de Porto Seguro. O carro que me buscou era muito bom, com bancos de couro, ar-condicionado e muito limpo. Além disso, dentre todas as empresas que cotei, essa foi a que ofereceu o melhor preço. Fiz o trajeto sozinha e tudo ocorreu exatamente como combinado. Excelente serviço do início ao fim!",
+      image: { src: BrunaAvatar.src },
     },
     {
-      name: "Cliente 2",
+      name: "Paulo Sousa",
       location: "Brasilia, DF",
       review:
-        "Oferecemos uma gama completa de soluções de transfer projetadas para tornar sua viagem perfeita e inesquecívei",
-      image: "https://randomuser.me/api/portraits/women/1.jpg",
+        "Serviço de transfer executado com perfeição. Sem atrasos, carros limpos e motoristas educados e atenciosos. Estão de parabéns!!!",
+      image: { src: PauloAvatar.src },
     },
   ];
 
@@ -53,7 +62,7 @@ export default function Reviews() {
               </div>
               <div className="flex gap-3 items-center mt-4">
                 <img
-                  src={review.image}
+                  src={review.image.src}
                   alt=""
                   className="w-[40px] h-[40px] rounded-full"
                 />
