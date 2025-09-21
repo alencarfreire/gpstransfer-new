@@ -34,10 +34,10 @@ export default function Reviews() {
     <section className="bg-gradient-to-r from-black via-[#424242] to-black mt-[120px] mb-20">
       <div className="mx-auto max-w-[1440px] px-[100px] max-md:px-[20px] flex py-40 justify-between flex-wrap">
         <div className="text-white max-w-[397px]">
-          <h2 className="text-title-2 font-bold mb-6 max-md:text-center">
+          <h2 className="text-title-2 font-bold mb-6 max-md:text-center max-md:text-mobile-title-1">
             Seu parceiro de viagem confiável
           </h2>
-          <p className="text-subtitle-2 font-medium text-balance max-md:text-center">
+          <p className="text-subtitle-2 font-medium text-balance max-md:text-center max-md:text-mobile-subtitle-1">
             Oferecemos uma gama completa de soluções de transfer projetadas para
             tornar sua viagem perfeita e inesquecívei
           </p>
