@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import FAQImage from "../assets/faqimage.png";
 import Plus from "../assets/plus.svg";
+import ButtonCTA from "./ui/ButtonCTA";
 
 export default function FAQ() {
   // Estado para controlar quais perguntas estão expandidas, inicializando com o primeiro item (índice 0) já aberto
@@ -82,6 +83,12 @@ export default function FAQ() {
             </div>
           ))}
         </div>
+      </div>
+      <div className="mt-10 max-md:justify-center md:hidden">
+        <ButtonCTA
+          text="Orçamento"
+          href="https://api.whatsapp.com/send?phone=5573998344769&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20transfer..."
+        />
       </div>
     </section>
   );

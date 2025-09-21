@@ -5,6 +5,7 @@ import Quote from "../assets/quote.svg";
 import BrunaAvatar from "../assets/bruna-avatar.svg";
 import PauloAvatar from "../assets/paulo-avatar.svg";
 import MaianaAvatar from "../assets/maiana-avatar.jpg";
+import ButtonCTA from "./ui/ButtonCTA";
 
 interface Review {
   name: string;
