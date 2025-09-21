@@ -31,7 +31,8 @@ export default function ButtonCTA({
         </a>
       </div>
       <p className="text-[10px]">
-        Você será encaminhado(a) para o nosso WhatsApp.
+        Você será encaminhado(a) para o nosso{" "}
+        <span className="font-bold text-green-700">WhatsApp</span>.
       </p>
     </div>
   );
