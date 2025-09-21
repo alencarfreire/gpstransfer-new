@@ -14,23 +14,23 @@ export default function Footer() {
             <p className="text-button-1 mb-3">Contato</p>
             <ul className="text-text-2 flex flex-col gap-3">
               <a href="">
-                <li>Email: contato@gpstransfer.com</li>
-              </a>
-              <a href="">
-                <li>Telefone: (77) 99999-9999</li>
-              </a>
-              <a href="">
-                <li>WhatsApp: (77) 99999-9999</li>
+                <li>Telefone: (73) 73 99834-4769</li>
               </a>
             </ul>
           </div>
-          <div>
+          <div className="flex flex-col gap-3">
             <p className="text-button-1 mb-3">Siga-nos</p>
             <a
               href="https://www.instagram.com/gpstransfer/"
               className="text-text-2"
             >
               Instagram
+            </a>
+            <a
+              href="https://www.tripadvisor.com.br/Attraction_Review-g616327-d25427668-Reviews-GPS_Transfer-Arraial_d_Ajuda_Porto_Seguro_State_of_Bahia.html"
+              className="text-text-2"
+            >
+              TripAdvisor
             </a>
           </div>
           <div className="max-w-[231px]">

@@ -75,7 +75,10 @@ export default function Reviews() {
   };
 
   return (
-    <section className="bg-gradient-to-r from-black via-[#424242] to-black mt-[120px] mb-20">
+    <section
+      className="bg-gradient-to-r from-black via-[#424242] to-black mt-[120px] mb-20"
+      id="avaliacoes"
+    >
       <div className="mx-auto max-w-[1440px] px-[100px] max-md:px-[20px] flex py-40 justify-between flex-wrap max-lg:justify-center">
         <div className="text-white max-w-[397px]">
           <h2 className="text-title-2 font-bold mb-6 max-md:text-center max-md:text-mobile-title-1 max-lg:text-center">

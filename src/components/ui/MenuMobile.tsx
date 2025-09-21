@@ -55,7 +55,7 @@ export default function MenuMobile({ isOpen, onClose }: MenuMobileProps) {
           </li>
           <li>
             <a
-              href="/"
+              href="#servicos"
               className="hover:text-green-500 transition-colors"
               onClick={onClose}
             >
@@ -73,7 +73,7 @@ export default function MenuMobile({ isOpen, onClose }: MenuMobileProps) {
           </li>
           <li>
             <a
-              href="/"
+              href="#avaliacoes"
               className="hover:text-green-500 transition-colors"
               onClick={onClose}
             >
@@ -82,7 +82,7 @@ export default function MenuMobile({ isOpen, onClose }: MenuMobileProps) {
           </li>
           <li>
             <a
-              href="/"
+              href="#faq"
               className="hover:text-green-500 transition-colors"
               onClick={onClose}
             >

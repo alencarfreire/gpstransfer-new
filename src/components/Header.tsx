@@ -36,7 +36,7 @@ export default function Header() {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="/">Serviços</a>
+                <a href="#servicos">Serviços</a>
               </li>
               <li>
                 <a href="/">Blog</a>
@@ -49,10 +49,10 @@ export default function Header() {
           <nav>
             <ul className="flex gap-8 max-md:hidden">
               <li>
-                <a href="/">Avaliações</a>
+                <a href="#avaliacoes">Avaliações</a>
               </li>
               <li>
-                <a href="/">FAQ</a>
+                <a href="#faq">FAQ</a>
               </li>
               <li>
                 <a

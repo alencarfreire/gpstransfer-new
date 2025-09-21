@@ -7,7 +7,10 @@ import ButtonCTA from "./ui/ButtonCTA";
 
 export default function OurServicesDetails() {
   return (
-    <section className="mx-auto max-w-[1440px] px-[100px] max-md:px-[20px] my-30 flex flex-col gap-12">
+    <section
+      className="mx-auto max-w-[1440px] px-[100px] max-md:px-[20px] my-30 flex flex-col gap-12"
+      id="servicos"
+    >
       <h1 className="text-title-2 max-md:text-mobile-title-1 max-lg:text-center font-bold max-lg:max-w-[400px] max-xl:mx-auto">
         Simplifique sua viagem com os nossos serviços
       </h1>

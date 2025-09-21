@@ -41,7 +41,10 @@ export default function FAQ() {
   ];
 
   return (
-    <section className="mx-auto max-w-[1440px] px-[100px] max-md:px-[20px] flex flex-col items-center mb-20 gap-10">
+    <section
+      className="mx-auto max-w-[1440px] px-[100px] max-md:px-[20px] flex flex-col items-center mb-20 gap-10"
+      id="faq"
+    >
       <h2 className="text-title-2 text-center font-bold max-w-[600px] max-md:text-mobile-title-1">
         Ficou com dúvidas? Veja as peguntas frequentes...
       </h2>
