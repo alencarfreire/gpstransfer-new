@@ -70,7 +70,7 @@ export default function Destinations() {
   return (
     <section className="bg-cream-lite">
       <div className="mx-auto max-w-[1440px] px-[100px] max-md:px-[20px]">
-        <div className="flex flex-wrap gap-6 justify-between">
+        <div className="flex flex-wrap gap-6 justify-between max-2xl:justify-center">
           {locals.map((local) => (
             <div key={local.name} className="max-w-[600px] max-xl:w-full">
               <img
