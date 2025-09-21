@@ -45,19 +45,19 @@ export default function Destinations() {
     {
       name: "Santa Cruz Cabrália",
       description:
-        "Santa Cruz Cabrália fica cerca de 150km do Aeroporto e 155km do Centro de Porto Seguro, mais o trajeto de balsa que é cerca de 15 minutos, em um dos trajetos mais longos, porém também possui o trajeto sem balsa, que é cerca de 220km do Aeroporto e 225km do Centro de Porto Seguro, esse trajeto de maior quilometragem geralmente é o mais indicado em época de alta temporada, devida ao tempo perdido na fila da balsa, podendo chegar entre 2 horas e 4 horas de fila.",
+        "Santa Cruz Cabrália fica cerca de 25km do Aeroporto e 23km do Centro de Porto Seguro, apesar de ser perto, em alta temporada esse trajeto pode demorar cerca de 1 hora e 30 minutos ou mais, fora da alta temporada esse trajeto é feito em cerca de 30 minutos.",
       imagem: { src: santaCruzCabralia.src },
     },
     {
       name: "Aeroporto de Porto Seguro",
       description:
-        "Porto Seguro fica cerca de 100km do Aeroporto e 105km do Centro de Porto Seguro, mais o trajeto de balsa que é cerca de 15 minutos, em um dos trajetos mais longos, porém também possui o trajeto sem balsa, que é cerca de 180km do Aeroporto e 185km do Centro de Porto Seguro, esse trajeto de maior quilometragem geralmente é o mais indicado em época de alta temporada, devida ao tempo perdido na fila da balsa, podendo chegar entre 2 horas e 4 horas de fila.",
+        "O Aeroporto de Porto Seguro fica localizado a 5 minutos do centro da cidade. É um aeroporto pequeno, mas existem meses que recebe mais de mil voos. Agende o seu Transfer e não corra o risco de perder o seu voo por conta de atrasos.",
       imagem: { src: aeroporto.src },
     },
     {
       name: "Santo André",
       description:
-        "Santo André fica cerca de 120km do Aeroporto e 125km do Centro de Porto Seguro, mais o trajeto de balsa que é cerca de 15 minutos, em um dos trajetos mais longos, porém também possui o trajeto sem balsa, que é cerca de 200km do Aeroporto e 205km do Centro de Porto Seguro, esse trajeto de maior quilometragem geralmente é o mais indicado em época de alta temporada, devida ao tempo perdido na fila da balsa, podendo chegar entre 2 horas e 4 horas de fila.",
+        "Santo André fica cerca de 38km do Aeroporto e 36km do Centro de Porto Seguro, mais o trajeto de balsa que é cerca de 15 minutos.",
       imagem: { src: santoAndre.src },
     },
     {
