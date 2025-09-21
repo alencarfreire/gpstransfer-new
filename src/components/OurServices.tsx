@@ -18,7 +18,7 @@ export default function OurServices() {
             proporcionar praticidade e excelência em cada trajeto.
           </p>
           <ButtonCTA
-            text="Orçamento"
+            text="Fazer Orçamento"
             href="https://api.whatsapp.com/send?phone=5573998344769&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20transfer..."
           />
         </div>
