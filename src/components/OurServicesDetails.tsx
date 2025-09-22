@@ -94,7 +94,7 @@ export default function OurServicesDetails() {
         </div>
         <div>
           <h4 className="text-title-3 max-lg:text-mobile-title-2 font-bold max-lg:text-center">
-            Casamentos e ventos fechados
+            Casamentos e eventos fechados
           </h4>
           <p className="text-subtitle-2 max-lg:text-mobile-subtitle-2 max-lg:text-center max-lg:max-w-[350px] mb-5">
             Transfer para casamentos e cobertura de transfer para casamentos e
