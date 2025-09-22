@@ -93,6 +93,7 @@ export default function Reviews() {
             <a
               href="https://www.tripadvisor.com.br/Attraction_Review-g616327-d25427668-Reviews-GPS_Transfer-Arraial_d_Ajuda_Porto_Seguro_State_of_Bahia.html"
               className="text-green-600 font-bold"
+              target="_blank"
             >
               TripAdvisor.
             </a>
