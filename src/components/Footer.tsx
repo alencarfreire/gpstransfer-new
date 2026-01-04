@@ -14,7 +14,7 @@ export default function Footer() {
             <p className="text-button-1 mb-3">Contato</p>
             <ul className="text-text-2 flex flex-col gap-3">
               <a href="">
-                <li>Telefone: (73) 73 99834-4769</li>
+                <li>Telefone: (73) 99834-4769</li>
               </a>
             </ul>
           </div>
