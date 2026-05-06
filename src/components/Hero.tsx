@@ -1,5 +1,5 @@
 import React from "react";
-import imageHero from "../assets/image-hero.png";
+import imageHero from "../assets/image-hero.webp";
 import ButtonCTA from "./ui/ButtonCTA";
 
 export default function Hero() {
@@ -25,7 +25,7 @@ export default function Hero() {
           <img
             src={imageHero.src}
             alt="Hero image"
-            className="w-full max-h-[540px] rounded-3xl object-cover max-md:h-[280px] max-md:rounded-3xl"
+            className="w-full max-h-[540px] rounded-3xl object-cover max-md:h-[280px] max-md:rounded-3xl object-[25%_60%]"
           />
         </div>
       </section>

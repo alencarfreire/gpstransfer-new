@@ -1,5 +1,5 @@
 import React from "react";
-import TripAdvisor from "../assets/tripadvisor.png";
+import TripAdvisor from "../assets/tripadvisor2026.webp";
 
 export default function TripAwards() {
   return (
@@ -16,7 +16,11 @@ export default function TripAwards() {
             as 10% melhores do mundo.
           </p>
         </div>
-        <img src={TripAdvisor.src} alt="TripAdvisor Travales Choice" />
+        <img
+          src={TripAdvisor.src}
+          alt="TripAdvisor Travales Choice"
+          className="max-w-54"
+        />
       </section>
     </div>
   );
