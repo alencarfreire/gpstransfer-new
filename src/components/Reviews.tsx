@@ -4,8 +4,13 @@ import ArrowRight from "../assets/arrow-right.svg";
 import Quote from "../assets/quote.svg";
 import BrunaAvatar from "../assets/bruna-avatar.svg";
 import PauloAvatar from "../assets/paulo-avatar.svg";
-import MaianaAvatar from "../assets/maiana-avatar.jpg";
 import ButtonCTA from "./ui/ButtonCTA";
+
+interface OptimizedImage {
+  src: string;
+  width: number;
+  height: number;
+}
 
 interface Review {
   name: string;
@@ -14,7 +19,11 @@ interface Review {
   image: { src: string };
 }
 
-export default function Reviews() {
+interface ReviewsProps {
+  maianaAvatar: OptimizedImage;
+}
+
+export default function Reviews({ maianaAvatar }: ReviewsProps) {
   const clientsReviews: Review[] = [
     {
       name: "Maisa Brandão",
@@ -35,7 +44,7 @@ export default function Reviews() {
       location: "Florianópolis, SC",
       review:
         "Caraíva é incrível e o transfer fez nossa experiencia muito melhor! O Gabriel foi muito solicito, educado e claro na comunicação enquanto o Evandro, nosso motorista foi extremamente simpático, confiável, prudente e educado também! Nos deu várias recomendações ótimas de Caraíva e foi sempre muito pontual! Recomendaria mil vezes, viajei com uma amiga e amamos a experiencia!",
-      image: { src: MaianaAvatar.src },
+      image: { src: maianaAvatar.src, width: maianaAvatar.width, height: maianaAvatar.height },
     },
   ];
 

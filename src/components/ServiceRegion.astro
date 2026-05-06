@@ -1,0 +1,22 @@
+---
+import ServiceRegionImage from '../assets/regiaodeatendimento.svg';
+import MapBahiaMobile from '../assets/mapabahiamobile.svg';
+---
+
+<section class="bg-cream-lite">
+  <div class="mx-auto max-w-[1440px] px-[100px] max-md:px-[20px]">
+    <div class="py-20">
+      <h2 class="text-title-2 leading-[120%] font-bold mb-14 max-md:text-mobile-title-2 max-md:text-center">
+        Região de atendimento
+      </h2>
+      <img
+        src={ServiceRegionImage.src}
+        alt=""
+        class="hidden lg:block"
+      />
+      <div class="flex justify-center lg:hidden">
+        <img src={MapBahiaMobile.src} alt="" class="w-full" />
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,18 +1,21 @@
 ---
+import { getImage } from 'astro:assets';
 import Header from "../components/Header";
 import Layout from "../layouts/Layout.astro";
-import Hero from "../components/Hero";
-import TripAwards from "../components/TripAwards";
-import OurServices from "../components/OurServices";
-import ServiceRegion from "../components/ServiceRegion";
-import Footer from "../components/Footer";
-import Destinations from "../components/Destinations";
+import Hero from "../components/Hero.astro";
+import TripAwards from "../components/TripAwards.astro";
+import OurServices from "../components/OurServices.astro";
+import ServiceRegion from "../components/ServiceRegion.astro";
+import Footer from "../components/Footer.astro";
+import Destinations from "../components/Destinations.astro";
 import Reviews from "../components/Reviews";
 import FAQ from "../components/FAQ";
-import OurServicesDetails from "../components/OurServicesDetails";
+import OurServicesDetails from "../components/OurServicesDetails.astro";
+import maianaAvatar from "../assets/maiana-avatar.jpg";
+import faqImage from "../assets/faqimage.png";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const optimizedMaianaAvatar = await getImage({ src: maianaAvatar });
+const optimizedFaqImage = await getImage({ src: faqImage });
 ---
 
 <Layout>
@@ -23,7 +26,7 @@ import OurServicesDetails from "../components/OurServicesDetails";
   <ServiceRegion />
   <Destinations />
   <OurServicesDetails />
-  <Reviews client:load />
-  <FAQ client:load />
+  <Reviews maianaAvatar={optimizedMaianaAvatar} client:load />
+  <FAQ faqImage={optimizedFaqImage} client:load />
   <Footer />
 </Layout>

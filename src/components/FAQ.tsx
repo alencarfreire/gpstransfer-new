@@ -1,9 +1,18 @@
 import React, { useState } from "react";
-import FAQImage from "../assets/faqimage.png";
 import Plus from "../assets/plus.svg";
 import ButtonCTA from "./ui/ButtonCTA";
 
-export default function FAQ() {
+interface OptimizedImage {
+  src: string;
+  width: number;
+  height: number;
+}
+
+interface FAQProps {
+  faqImage: OptimizedImage;
+}
+
+export default function FAQ({ faqImage }: FAQProps) {
   // Estado para controlar quais perguntas estão expandidas, inicializando com o primeiro item (índice 0) já aberto
   const [expandedItems, setExpandedItems] = useState<number[]>([0]);
 
@@ -51,8 +60,10 @@ export default function FAQ() {
       <div className="flex justify-between items-center max-2xl:gap-[100px] gap-[148px] flex-wrap max-md:gap-10 max-xl:justify-center">
         <div className="max-md:w-[300px] w-[400px] max-h-[803px]">
           <img
-            src={FAQImage.src}
+            src={faqImage.src}
             alt="FAQ"
+            width={faqImage.width}
+            height={faqImage.height}
             className="w-full h-full object-cover rounded-2xl"
           />
         </div>
