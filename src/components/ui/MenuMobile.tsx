@@ -64,15 +64,6 @@ export default function MenuMobile({ isOpen, onClose }: MenuMobileProps) {
           </li>
           <li>
             <a
-              href="/"
-              className="hover:text-green-500 transition-colors"
-              onClick={onClose}
-            >
-              Blog
-            </a>
-          </li>
-          <li>
-            <a
               href="#avaliacoes"
               className="hover:text-green-500 transition-colors"
               onClick={onClose}
@@ -91,11 +82,11 @@ export default function MenuMobile({ isOpen, onClose }: MenuMobileProps) {
           </li>
           <li>
             <a
-              href="/"
+              href="https://api.whatsapp.com/send?phone=5573998344769&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20agendar%20um%20transfer%20privativo..."
               className="bg-green-600 px-[14px] py-2 rounded-full hover:bg-green-700 transition-colors border-2 border-white text-white font-bold"
               onClick={onClose}
             >
-              Reservar
+              Agendar Privativo
             </a>
           </li>
         </ul>

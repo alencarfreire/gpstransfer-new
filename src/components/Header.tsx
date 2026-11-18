@@ -38,9 +38,6 @@ export default function Header() {
               <li>
                 <a href="#servicos">Serviços</a>
               </li>
-              <li>
-                <a href="/">Blog</a>
-              </li>
             </ul>
           </nav>
           <div className="flex items-center justify-center font-extrabold text-xl transform translate-x-1.5">
@@ -56,10 +53,10 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="https://api.whatsapp.com/send?phone=5573998344769&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20transfer..."
-                  className="bg-green-600 px-[14px] py-2 rounded-full hover:bg-green-700 transition-colors border-2 border-white text-white font-bold"
+                  href="https://api.whatsapp.com/send?phone=5573998344769&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20agendar%20um%20transfer%20privativo..."
+                  className="bg-green-600 px-[14px] py-2 rounded-full hover:bg-green-700 transition-colors border-2 border-white text-white font-bold whitespace-nowrap"
                 >
-                  Reservar
+                  Agendar Privativo
                 </a>
               </li>
             </ul>

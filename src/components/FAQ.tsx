@@ -100,8 +100,8 @@ export default function FAQ({ faqImage }: FAQProps) {
       </div>
       <div className="mt-10 max-md:justify-center md:hidden">
         <ButtonCTA
-          text="Orçamento"
-          href="https://api.whatsapp.com/send?phone=5573998344769&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20transfer..."
+          text="Agendar Privativo"
+          href="https://api.whatsapp.com/send?phone=5573998344769&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20agendar%20um%20transfer%20privativo..."
         />
       </div>
     </section>

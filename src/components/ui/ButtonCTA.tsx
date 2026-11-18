@@ -12,7 +12,7 @@ export default function ButtonCTA({
       <div className="flex">
         <a
           href={href}
-          className="animate-pulse-colors bg-green-600 text-white px-[18px] py-[14px] rounded-full font-semibold text-button-1 flex items-center gap-4 cursor-pointer group border-4 border-green-900"
+          className="animate-pulse-colors bg-green-600 text-white px-[18px] py-[14px] rounded-full font-semibold text-button-1 flex items-center gap-4 cursor-pointer group border-4 border-green-900 whitespace-nowrap"
           target="_blank"
         >
           {text}
